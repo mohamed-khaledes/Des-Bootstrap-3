@@ -1,0 +1,50 @@
+/*BootSrap*/
+/* We have in bootstrap container and container-fluid */
+/*
+    gird system = 12 column;
+    --we have four screen 
+    col => column
+    lg => large
+    md => medium
+    sm => small 
+    xs => extra small
+    <!--We have in bootstrap container and container-fluid-->
+    <!-- col-lg-3 => 4 product in large screen-->
+    <!-- col-lg-4 => 3 product in medium screen-->
+    <!-- col-lg-6 => 2 product in small screen-->
+    <!-- col-lg-12 => 1 product in small screen-->
+    ******************************************************************
+    --Hidden
+    if we want to hidden any element we will use hidden-(screen)
+    hidden => hide
+    hidden-(Screen name) // hidden-lg
+    *******************************************************************
+    -- Visible
+    if we want to visible any element we will use visible-(screen)
+    visible => show
+    visible-(screen name)-(block , inline , inline-block) // visible-sm-block
+
+    ******************************************************************
+    --Clearfix
+    to Reset the float element use clearfix-->
+
+    ******************************************************************
+    --Offset
+    we have thing is called offset this give to element margin-left depending on what you give it to him from 12 grid column
+    col-(screen)-offset-(num of column) => col-md-offset-3
+
+    **************************************************************************
+    --Grid Ordring 
+    => col-(screen name)-(push or pull)-(num of columns)
+    col-lg-push-3
+    to Reset that => col-(screen name)-(push or pull)-0 => col-md-push-0
+    *******************************************************************************
+    --Grid Nesting
+    --class => img-responsive 
+    --class => center-block  
+    --class => lead
+    *********************************************************************
+    --Buttons
+    class =".btn btn-primary btn-lg block"
+    -> Default,primary,success,info,warning,danger
+*/

@@ -1,0 +1,28 @@
+:root{
+    --main-color:goldenrod;
+}
+.option-box .color-option ul li,
+.option-box .gear-check,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+#scroll-top,body::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+.about h1 span,
+.about h3 span,
+.features .feat span.glyphicon,
+.testimonials .item span,
+footer h3,
+.navbar-inverse .navbar-brand span,
+footer .copyright span,
+.about-features i,
+.faq-content .panel-heading a::after{
+    color:var(--main-color);
+}
+
+.testimonials .carousel-indicators li.active{
+    border: 3px solid var(--main-color);
+}
